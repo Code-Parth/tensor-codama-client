@@ -1,3 +1,9 @@
-export * as TensorCNFTProgram from "./TensorCNFTProgram";
-export * as TensorBidProgram from "./TensorBidProgram";
-export * as TensorSwapProgram from "./TensorSwapProgram";
+import * as TensorCNFTProgram from "./TensorCNFTProgram";
+import * as TensorBidProgram from "./TensorBidProgram";
+import * as TensorSwapProgram from "./TensorSwapProgram";
+
+export const TensorClient = {
+  TensorCNFTProgram,
+  TensorBidProgram,
+  TensorSwapProgram,
+};
