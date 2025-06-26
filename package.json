@@ -4,10 +4,17 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "createClient": "bun run createClient.ts"
+    "createClient": "bun run createClient.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix && prettier --write ."
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@eslint/js": "^9.29.0",
+    "@types/bun": "latest",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.6.1",
+    "typescript-eslint": "^8.35.0"
   },
   "peerDependencies": {
     "typescript": "^5"
