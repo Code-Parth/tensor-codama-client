@@ -16,25 +16,25 @@ const TensorSwapProgram =
   TSWAPaqyCSx2KABk68Shruf4rp7CxcNi8hAsbdwmHbN as AnchorIdl;
 
 const TensorCNFTProgramCodama = createFromRoot(
-  rootNodeFromAnchor(TensorCNFTProgram)
+  rootNodeFromAnchor(TensorCNFTProgram),
 );
 
 TensorCNFTProgramCodama.accept(
-  renderJavaScriptVisitor("clients/TensorCNFTProgram")
+  renderJavaScriptVisitor("clients/TensorCNFTProgram"),
 );
 
 const TensorBidProgramCodama = createFromRoot(
-  rootNodeFromAnchor(TensorBidProgram)
+  rootNodeFromAnchor(TensorBidProgram),
 );
 
 TensorBidProgramCodama.accept(
-  renderJavaScriptVisitor("clients/TensorBidProgram")
+  renderJavaScriptVisitor("clients/TensorBidProgram"),
 );
 
 const TensorSwapProgramCodama = createFromRoot(
-  rootNodeFromAnchor(TensorSwapProgram)
+  rootNodeFromAnchor(TensorSwapProgram),
 );
 
 TensorSwapProgramCodama.accept(
-  renderJavaScriptVisitor("clients/TensorSwapProgram")
+  renderJavaScriptVisitor("clients/TensorSwapProgram"),
 );
